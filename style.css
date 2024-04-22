@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    
+}
+body {
+    background-color: #546de5;
+   
+}
+#add-btn {
+    background-color: #32ff7e;
+    color: #546de5;
+    font-weight: 600;
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    gap: 0.7rem;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 1rem;
+
+}
+#add-btn:hover {
+    opacity: 0.9;
+}
+#add-btn i {
+    font-size: 1rem;
+}
+.notes {
+    height: 330px;
+    width: 300px;
+    background-color: #fff200;
+    margin: 70px 20px 50px 20px;
+    border-radius: 1rem;
+    display: inline-block;
+    overflow: hidden;
+}
+.notes .top {
+    width: 100%;
+    background-color: #18dcff;
+    padding: 1.3rem;
+    border-radius: 1rem 1rem 0 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+.notes  textarea {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    resize: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #546de5;
+}
+.notes  textarea:focus {
+    border: none;
+    outline: none;
+}
+.notes .top i {
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: #7158e2;
+}
+.notes .top i:hover {
+    opacity: 0.7;
+    font-size: 1.2rem;
+}
